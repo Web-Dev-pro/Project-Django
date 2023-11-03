@@ -1,0 +1,9 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 25, 2023 - 16:29:32
+Django version 4.2.4, using settings 'core.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+Student profile created successfully

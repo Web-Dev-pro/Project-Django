@@ -1,0 +1,1881 @@
+INFO 2023-10-07 14:14:59,204 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:14:59,272 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:18:29,878 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:18:29,948 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:18:49,806 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:18:49,874 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:21:53,678 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:21:53,740 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:22:13,226 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:22:13,294 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:23:25,778 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:23:25,846 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:23:43,564 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:23:43,632 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:26:28,117 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 14:26:28,185 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+INFO 2023-10-07 14:27:23,181 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 14:29:44,980 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 14:29:54,134 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 14:30:01,692 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:30:01,756 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:30:27,443 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:30:27,506 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:30:35,462 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:30:35,526 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:32:07,918 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:32:07,981 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:32:21,803 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:32:21,865 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:33:27,521 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:33:27,585 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:36:53,847 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:36:53,908 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:39:11,573 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:39:11,636 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:40:13,129 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:40:13,189 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:40:27,697 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:40:27,758 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:40:37,440 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:40:37,500 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:45:26,172 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:45:26,233 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:45:38,917 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:45:38,978 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:46:27,467 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:46:27,528 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:48:20,274 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:48:20,335 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:48:32,751 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:48:32,813 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:49:08,332 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:49:08,395 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:50:00,376 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:50:00,445 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:50:20,836 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:50:20,902 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 14:50:49,735 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 14:50:49,801 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 15:01:33,329 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:02:17,994 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:02:34,323 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:02:59,295 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:03:22,866 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 15:03:22,880 [main:574] Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/husan/Desktop/project-beta/apps/authentication/signals.py", line 85, in auto_create_attendance_and_lesson
+    students = instance.group.students.filter(group=instance.group)
+AttributeError: Mixer (<class 'apps.authentication.models.Lesson'>): 'NoneType' object has no attribute 'students'
+
+INFO 2023-10-07 15:03:46,208 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 15:03:46,212 [main:574] Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/husan/Desktop/project-beta/apps/authentication/signals.py", line 85, in auto_create_attendance_and_lesson
+    students = instance.group.students.filter(group=instance.group)
+AttributeError: Mixer (<class 'apps.authentication.models.Lesson'>): 'NoneType' object has no attribute 'students'
+
+INFO 2023-10-07 15:05:05,608 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:05:05,613 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:05:27,408 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 15:05:27,412 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:45:22,486 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:45:22,491 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:45:33,566 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:45:33,570 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:46:52,799 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:46:52,805 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:48:29,672 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:48:29,755 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:49:03,740 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:49:03,805 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:49:45,237 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:49:45,305 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:50:49,290 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:50:49,358 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:51:03,108 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:51:49,748 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:51:49,818 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:52:28,063 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:52:28,128 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:53:05,702 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:53:05,771 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:53:23,693 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:53:23,758 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:53:53,502 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:53:53,570 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:54:42,113 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:54:42,179 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:55:18,137 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:55:18,202 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:55:31,968 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:55:32,036 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:55:45,110 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:55:45,178 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:56:28,354 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:57:02,850 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:57:21,763 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:57:31,345 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:58:06,105 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:58:15,826 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 20:58:46,788 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:58:46,853 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 20:59:39,080 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 20:59:39,145 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:00:06,589 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 21:00:06,656 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:00:41,549 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 21:00:41,615 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:01:12,342 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 21:01:12,408 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:01:22,455 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 21:01:22,523 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:06:06,913 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 21:06:06,978 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:06:59,577 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-07 21:06:59,642 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-07 21:07:16,628 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:08:40,845 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:08:53,402 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:09:48,927 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:10:39,445 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:11:28,740 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:24:18,850 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:51:04,482 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:51:04,557 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:51:04,580 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:51:04,849 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:51:04,853 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:51:05,036 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:51:05,042 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:51:05,480 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:02,156 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:02,230 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:52:02,240 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:52:02,502 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:52:02,505 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:52:02,684 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:02,689 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:03,113 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:24,253 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:24,330 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:52:24,340 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:52:24,610 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:52:24,614 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:52:24,730 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:24,735 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:52:25,213 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:54:18,529 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:54:18,605 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:54:18,615 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:54:18,901 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:54:18,905 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:54:19,023 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:54:19,028 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:54:19,510 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:57:03,678 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:57:03,755 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:57:03,765 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:57:04,028 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:57:04,032 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:57:04,214 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:57:04,219 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:57:04,641 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:58:12,623 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:58:12,701 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:58:12,711 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:58:12,978 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-07 21:58:12,982 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+INFO 2023-10-07 21:58:13,165 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:58:13,170 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:58:13,593 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 21:59:15,467 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 22:00:15,140 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 22:00:15,216 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 22:00:15,228 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 22:00:15,244 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 22:00:15,251 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-07 22:00:15,678 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:21:31,155 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:21:51,847 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:35:02,722 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:35:16,624 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:37:24,244 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:38:14,022 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:41:12,180 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:41:29,126 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:41:29,204 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:41:29,218 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:42:06,261 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:42:06,338 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:42:06,352 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:42:34,458 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:42:34,538 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-10 09:42:34,562 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+INFO 2023-10-10 09:42:57,181 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:42:57,259 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:42:57,274 [log:241] Bad Request: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:43:25,778 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:43:25,855 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:43:25,871 [log:241] Not Found: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:44:12,888 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:44:12,965 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:44:12,980 [log:241] Not Found: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:45:59,773 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:45:59,850 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:48:24,007 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:48:24,085 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:48:24,098 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:48:52,645 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:48:52,722 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:48:52,735 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:49:09,642 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:49:09,720 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:49:09,733 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:51:25,917 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:51:25,993 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:51:26,005 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:51:45,559 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:51:45,636 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:51:45,648 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:53:49,976 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:53:50,052 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:53:50,074 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:54:03,442 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:54:03,519 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:54:03,541 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:54:34,981 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:54:35,058 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:54:35,078 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:54:45,598 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:54:45,676 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:54:45,696 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:54:55,098 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:54:55,175 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:54:55,196 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:57:02,616 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:57:02,693 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:57:02,713 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:57:35,614 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:57:35,691 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:57:35,713 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:58:13,112 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:58:13,190 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:58:48,536 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:58:48,612 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:59:07,984 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:59:08,061 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:59:08,075 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 09:59:27,247 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 09:59:27,323 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 09:59:27,336 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:33:33,741 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:33:33,885 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 12:33:33,904 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:37:55,653 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:37:55,770 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 12:37:55,812 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:38:22,853 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:38:22,970 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 12:38:23,000 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:38:43,954 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:38:44,076 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 12:38:44,107 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:39:23,146 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:39:23,264 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 12:39:23,292 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:39:49,893 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:39:50,010 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 12:39:50,040 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 12:44:32,815 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:44:32,944 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:46:13,933 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:46:14,062 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:49:07,658 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:49:07,787 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:54:54,831 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:54:54,960 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:57:02,038 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:57:02,167 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:57:17,076 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:57:17,206 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:57:43,342 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:57:43,471 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:58:02,342 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:58:02,471 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:58:35,077 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:58:35,207 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:58:52,349 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:58:52,478 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:59:18,091 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 12:59:18,220 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:00:14,131 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:00:14,260 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:00:47,981 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:00:48,110 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:02:35,259 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:02:52,751 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:03:05,505 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:03:25,299 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:04:49,470 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:04:49,486 [test_comment:28] student
+INFO 2023-10-10 13:05:59,113 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:07:14,710 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:07:14,841 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:10:23,996 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:10:24,097 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:10:24,111 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:10:51,506 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:10:51,634 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:10:51,653 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:11:12,106 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:11:12,235 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:11:12,253 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:11:53,161 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:11:53,290 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:11:53,309 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:12:05,252 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:12:05,382 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:12:05,401 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:12:43,806 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:12:43,935 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:13:01,517 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:13:01,648 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:13:01,667 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:13:22,502 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:13:22,630 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:13:22,651 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:13:40,277 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:13:40,405 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:13:40,425 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:15:52,820 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:15:52,958 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:15:52,981 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:16:11,090 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:16:11,222 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:16:11,563 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 13:16:16,358 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 13:16:16,486 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 13:16:16,507 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 14:22:25,456 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:22:25,587 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:22:25,918 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 14:24:12,676 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:24:12,807 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:24:13,134 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 14:25:34,120 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:25:34,248 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:25:47,084 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:25:47,212 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:25:47,231 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 14:26:23,385 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:26:23,521 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:26:23,540 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+INFO 2023-10-10 14:31:39,304 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:31:39,434 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:31:39,453 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:31:39,456 [log:241] Bad Request: /api/v1/auth/login/
+INFO 2023-10-10 14:32:06,830 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:32:06,959 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:32:06,978 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:32:06,981 [log:241] Bad Request: /api/v1/auth/login/
+INFO 2023-10-10 14:32:47,410 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:32:47,538 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:32:47,556 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:32:47,560 [log:241] Bad Request: /api/v1/auth/login/
+INFO 2023-10-10 14:33:58,285 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:33:58,414 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:33:58,431 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:33:58,435 [log:241] Bad Request: /api/v1/auth/login/
+INFO 2023-10-10 14:36:17,248 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:36:17,377 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:36:54,018 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:36:54,148 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-10 14:36:54,176 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'dict' object has no attribute 'is_authenticated'
+INFO 2023-10-10 14:37:16,505 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:37:16,635 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-10 14:37:16,665 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'dict' object has no attribute 'is_authenticated'
+INFO 2023-10-10 14:37:30,901 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:37:31,030 [signals:94] Attendance and Mark created successfully
+ERROR 2023-10-10 14:37:31,057 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Parent' object has no attribute 'is_authenticated'
+INFO 2023-10-10 14:37:45,898 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:37:46,031 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:38:19,120 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:38:19,248 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:38:42,293 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:39:18,789 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:42:37,202 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:42:37,330 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 14:42:37,340 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-10 14:43:38,571 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:43:38,700 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:44:01,566 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:44:01,695 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:33,469 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:33,601 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:33,638 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:33,657 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:33,681 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:33,691 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 14:48:34,395 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 20:58:47,380 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 20:58:47,541 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 20:59:03,144 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 20:59:03,274 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:03:49,969 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:03:50,098 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:03:50,133 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:03,405 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:03,534 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:03,570 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:28,886 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:29,019 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:29,053 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:54,485 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:54,617 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:04:54,652 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 21:04:54,669 [log:241] Forbidden: /api/v1/comment/1/delete/
+INFO 2023-10-10 21:08:30,287 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:08:30,416 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:08:30,449 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:08:30,477 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 21:08:30,479 [log:241] Unauthorized: /api/v1/lessons/
+INFO 2023-10-10 21:08:30,596 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 21:08:30,599 [log:241] Unauthorized: /api/v1/lesson/1/
+WARNING 2023-10-10 21:08:30,614 [log:241] Unauthorized: /api/v1/group/1/lesson-create/
+INFO 2023-10-10 21:08:30,626 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-10 21:08:30,629 [log:241] Unauthorized: /api/v1/lesson/1/delete/
+INFO 2023-10-10 21:08:31,326 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,725 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,854 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,888 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,916 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,932 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,954 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:37,963 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-10 21:09:38,649 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 10:19:05,429 [log:241] Unauthorized: /api/v1/groups/
+INFO 2023-10-11 10:37:55,995 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:56,817 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:57,420 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:58,195 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:58,212 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:58,234 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:58,245 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:37:58,928 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:30,158 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:30,935 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:30,961 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:31,663 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:31,680 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:31,702 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:31,712 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:43:32,545 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:57,188 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:57,976 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:58,004 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:58,710 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:58,727 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:58,747 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:58,756 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:44:59,451 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:45:40,745 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:45:41,636 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:45:41,653 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:45:41,675 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:45:41,687 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:45:42,374 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:46:09,858 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:46:10,754 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:46:10,773 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:46:10,795 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:46:10,806 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:46:11,496 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:50:41,482 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:50:42,406 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:50:42,424 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:50:42,446 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:50:42,456 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:50:43,143 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:54:34,375 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:54:34,522 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:54:34,539 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:54:34,563 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:54:34,572 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:54:35,264 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:17,779 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:17,896 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:18,027 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:18,075 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:18,092 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:18,114 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:18,124 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:58:18,811 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:10,842 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:10,959 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:11,091 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:11,140 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:11,158 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:11,181 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:11,190 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 10:59:11,875 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,006 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,115 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,145 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,271 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,288 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,311 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:26,322 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:27,012 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:50,967 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:51,085 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:51,218 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:51,269 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:51,287 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:51,310 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:51,320 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:00:52,003 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,567 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,683 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,814 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,862 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,879 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,901 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:06,910 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:07,590 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,290 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,409 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,541 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,595 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,612 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,636 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:21,645 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:02:22,340 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,326 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,442 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,575 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,626 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,644 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,667 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:56,677 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:03:57,363 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:04:42,803 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:04:42,943 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:04:42,960 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:04:42,982 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:04:42,992 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:04:43,690 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,280 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,398 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,530 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,572 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,590 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,611 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:28,621 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:05:29,305 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,303 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,421 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,553 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,595 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,613 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,635 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:11,646 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:08:12,328 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,309 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,426 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,559 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,601 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,618 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,639 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:47,650 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:14:48,329 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:05,864 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:05,982 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:06,115 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:06,155 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:06,172 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:06,194 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:06,204 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:06,893 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:47,986 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:48,764 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:49,359 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:50,131 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:50,148 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:50,170 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:50,180 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:15:50,859 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,398 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,517 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,652 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,695 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,712 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,734 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:12,745 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:16:13,440 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:52,512 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:52,629 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:52,675 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:17:52,684 [log:241] Forbidden: /api/v1/comment/student/3/lesson/1/
+INFO 2023-10-11 11:17:52,824 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:52,841 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:52,863 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:52,872 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:17:53,558 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:37,287 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:37,403 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:37,445 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:18:37,451 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:18:37,595 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:37,612 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:37,635 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:37,644 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:18:38,332 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:50,005 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:50,123 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:50,165 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:19:50,170 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:19:50,310 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:50,326 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:50,348 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:50,358 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:19:51,047 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:20:23,043 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:20:23,161 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:20:23,203 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:20:23,209 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:20:23,332 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:20:23,345 [log:241] Unauthorized: /api/v1/groups/
+INFO 2023-10-11 11:20:23,355 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:20:23,361 [log:241] Unauthorized: /api/v1/lessons/
+INFO 2023-10-11 11:20:23,375 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:20:23,381 [log:241] Unauthorized: /api/v1/lesson/1/
+WARNING 2023-10-11 11:20:23,400 [log:241] Unauthorized: /api/v1/group/1/lesson-create/
+INFO 2023-10-11 11:20:23,410 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:20:23,417 [log:241] Unauthorized: /api/v1/lesson/1/delete/
+INFO 2023-10-11 11:20:24,105 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:21:04,054 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:21:04,171 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:21:04,214 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:21:04,219 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:21:04,343 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:21:04,356 [log:241] Unauthorized: /api/v1/groups/
+INFO 2023-10-11 11:21:04,367 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:21:04,373 [log:241] Unauthorized: /api/v1/lessons/
+INFO 2023-10-11 11:21:04,386 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:21:04,394 [log:241] Unauthorized: /api/v1/lesson/1/
+WARNING 2023-10-11 11:21:04,412 [log:241] Unauthorized: /api/v1/group/1/lesson-create/
+INFO 2023-10-11 11:21:04,422 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:21:04,430 [log:241] Unauthorized: /api/v1/lesson/1/delete/
+INFO 2023-10-11 11:21:05,115 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:02,329 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:02,445 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:02,487 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:22:02,493 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:22:02,632 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:02,648 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:22:02,652 [log:241] Forbidden: /api/v1/lesson/1/
+WARNING 2023-10-11 11:22:02,669 [log:241] Forbidden: /api/v1/group/1/lesson-create/
+INFO 2023-10-11 11:22:02,679 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:03,357 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:18,234 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:18,353 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:18,396 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:22:18,402 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:22:18,541 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:18,558 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:18,581 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:18,591 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:19,293 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:53,094 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:53,212 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:53,254 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:22:53,260 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:22:53,398 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:53,415 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:53,438 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:53,448 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:22:54,138 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:37,168 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:37,285 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:37,328 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:23:37,334 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:23:37,475 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:37,491 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:37,516 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:37,526 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:23:38,220 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:13,358 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:13,475 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:13,517 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:24:13,523 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:24:13,665 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:13,683 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:13,706 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:13,716 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:14,405 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:50,514 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:50,631 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:50,673 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:24:50,680 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:24:50,818 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:50,835 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:50,857 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:50,867 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:24:51,553 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:42,786 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:42,904 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:42,947 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:25:42,954 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:25:43,093 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:43,111 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:43,133 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:43,143 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:43,837 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:57,636 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:57,753 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:57,799 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:25:57,806 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:25:57,945 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:57,962 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:57,985 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:57,995 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:25:58,679 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:45,291 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:45,409 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:45,451 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:26:45,457 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:26:45,600 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:45,616 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:45,639 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:45,648 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:26:46,334 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:22,377 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:22,494 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:22,538 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:28:22,546 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:28:22,686 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:22,704 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:22,727 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:22,737 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:23,430 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:42,867 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:42,985 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:43,030 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:28:43,038 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:28:43,181 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:43,198 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:43,221 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:43,231 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:43,920 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:58,475 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:58,593 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:58,637 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:28:58,644 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:28:58,798 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:58,818 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:58,844 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:58,856 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:28:59,551 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:49,633 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:49,750 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:49,794 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:29:49,802 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:29:49,943 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:49,961 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:49,982 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:49,992 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:29:50,684 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:18,749 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:18,867 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:18,911 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:30:18,918 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:30:19,058 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:19,075 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:30:19,078 [log:241] Forbidden: /api/v1/lesson/1/
+WARNING 2023-10-11 11:30:19,095 [log:241] Forbidden: /api/v1/group/1/lesson-create/
+INFO 2023-10-11 11:30:19,105 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:19,803 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:58,426 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:58,543 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:58,585 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:30:58,590 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:30:58,729 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:58,745 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:58,767 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:58,776 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:30:59,467 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:12,777 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:12,895 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:12,937 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:32:12,943 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:32:13,083 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:13,101 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:13,123 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:13,133 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:13,824 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:33,639 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:33,757 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:33,800 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:32:33,811 [log:241] Forbidden: /api/v1/comment/student/3/lesson/1/
+INFO 2023-10-11 11:32:33,951 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:33,969 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:33,992 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:34,002 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:32:34,690 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:40,971 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:41,088 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:41,132 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:33:41,140 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:33:41,279 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:41,297 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:41,320 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:41,330 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:33:42,016 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:26,863 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:26,981 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:27,026 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:34:27,035 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:34:27,178 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:27,195 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:27,218 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:27,228 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:27,923 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:42,973 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:43,090 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:43,134 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:34:43,141 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:34:43,281 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:43,297 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:43,319 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:43,329 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:34:44,015 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:31,978 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:32,095 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:32,138 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:35:32,145 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:35:32,284 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:32,301 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:32,324 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:32,334 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:33,021 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:44,625 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:44,747 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:44,790 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:35:44,797 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:35:44,940 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:44,958 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:44,981 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:44,991 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:45,681 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:55,953 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:56,073 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:56,115 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:35:56,122 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:35:56,261 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:56,278 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:56,300 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:56,310 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:35:56,994 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:07,016 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:07,138 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:07,181 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:36:07,187 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:36:07,329 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:07,346 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:07,368 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:07,378 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:08,066 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:34,274 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:34,392 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:34,435 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:36:34,442 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:36:34,582 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:34,599 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:34,622 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:34,632 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:36:35,325 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:07,235 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:07,355 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:07,398 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:37:07,406 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:37:07,547 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:07,563 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:07,587 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:07,597 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:08,282 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:22,992 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:23,109 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:23,152 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:37:23,159 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:37:23,298 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:23,315 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:23,338 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:23,347 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:37:24,038 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:04,599 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:04,717 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:04,761 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:39:04,768 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:39:04,910 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:04,927 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:04,951 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:04,961 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:39:05,652 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:27,182 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:27,300 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:27,343 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:40:27,350 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:40:27,494 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:27,511 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:27,533 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:27,543 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:28,233 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:42,197 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:42,318 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:42,383 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:42,400 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:42,423 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:42,434 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:40:43,134 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:04,634 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:04,751 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:04,793 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:41:04,800 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:41:04,939 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:04,957 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:04,980 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:04,989 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:05,677 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:40,075 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:40,200 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:40,244 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:41:40,251 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:41:40,392 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:40,410 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:40,433 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:40,444 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:41,137 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:50,289 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:50,407 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:50,450 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:41:50,459 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:41:50,601 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:50,618 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:50,641 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:50,651 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:41:51,338 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:03,898 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:04,015 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:04,060 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:42:04,069 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:42:04,210 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:04,227 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:04,251 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:04,261 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:04,950 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:41,783 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:41,900 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:41,943 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:42:41,949 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:42:42,092 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:42,109 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:42,132 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:42,142 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:42:42,831 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:45,132 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:45,264 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:45,311 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:44:45,317 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:44:45,458 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:45,475 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:45,498 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:45,508 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:44:46,199 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:13,000 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:13,117 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:13,160 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:46:13,166 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+INFO 2023-10-11 11:46:13,309 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:13,326 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:13,348 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:13,358 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:46:14,043 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:39,760 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:39,880 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:39,924 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:51:39,934 [log:241] Not Found: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:51:40,074 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:40,091 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:40,114 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:40,124 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:51:40,812 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:10,956 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:11,077 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:11,120 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:52:11,129 [log:241] Not Found: /api/v1/comment/2/delete/
+INFO 2023-10-11 11:52:11,270 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:11,286 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:11,309 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:11,319 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:52:12,012 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:13,128 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:13,247 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:13,292 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:53:13,302 [log:241] Not Found: /api/v1/comment/2/delete/
+INFO 2023-10-11 11:53:13,442 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:13,460 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:13,483 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:13,493 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:14,195 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:26,345 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:26,465 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:26,510 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:53:26,522 [log:241] Not Found: /api/v1/comment/2/delete/
+INFO 2023-10-11 11:53:26,662 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:26,679 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:26,702 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:26,712 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:27,404 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:51,208 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:51,326 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:51,369 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:53:51,377 [log:241] Not Found: /api/v1/comment/2/delete/
+INFO 2023-10-11 11:53:51,517 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:51,536 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:51,560 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:51,570 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:52,270 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:53:59,982 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:00,102 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:00,145 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:54:00,155 [log:241] Not Found: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:54:00,297 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:00,314 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:00,338 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:00,347 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:01,042 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:45,456 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:45,576 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:45,620 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:54:45,629 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:54:45,632 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:54:45,770 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:45,788 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:45,811 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:45,821 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:54:46,510 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:01,121 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:01,240 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:01,285 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:55:01,294 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:55:01,297 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:55:01,436 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:01,453 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:01,476 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:01,486 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:02,185 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,367 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,487 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,529 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,674 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,691 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,713 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:19,723 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:20,414 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:55,674 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:55,799 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:55,847 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:55:55,857 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:55:55,858 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:55:56,003 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:56,022 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:56,047 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:56,058 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:55:56,764 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:19,229 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:19,348 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:19,392 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:56:19,400 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:56:19,401 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:56:19,542 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:19,559 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:19,582 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:19,592 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:56:20,283 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:04,945 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:05,065 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:05,111 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:57:05,122 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:57:05,126 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-11 11:57:05,268 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:05,286 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:05,309 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:05,319 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:57:06,003 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:13,332 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:13,452 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:13,495 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:58:13,506 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:58:13,508 [log:241] Not Found: /api/v1/comment/1/delete/
+INFO 2023-10-11 11:58:13,649 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:13,667 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:13,689 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:13,700 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:14,387 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:34,690 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:34,813 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:34,857 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:58:34,867 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:58:34,870 [log:241] Not Found: /api/v1/comment/2/delete/
+INFO 2023-10-11 11:58:35,012 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:35,031 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:35,054 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:35,064 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:35,770 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:54,550 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:54,668 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:54,713 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:58:54,727 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-11 11:58:54,869 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:54,887 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:54,912 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:54,921 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:58:55,614 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:05,228 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:05,350 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:05,395 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:59:05,408 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-11 11:59:05,550 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:05,569 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:05,594 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:05,604 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:06,313 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:31,766 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:31,885 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:31,928 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 11:59:31,938 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+INFO 2023-10-11 11:59:32,077 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:32,095 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:32,117 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:32,128 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:32,815 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,408 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,529 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,573 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,624 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,640 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,665 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:51,675 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 11:59:52,365 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:16,835 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:16,955 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:17,000 [signals:94] Attendance and Mark created successfully
+WARNING 2023-10-11 12:00:17,017 [log:241] Not Found: /api/v1/comment/2/delete/
+INFO 2023-10-11 12:00:17,160 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:17,177 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:17,202 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:17,212 [signals:94] Attendance and Mark created successfully
+INFO 2023-10-11 12:00:17,904 [signals:94] Attendance and Mark created successfully

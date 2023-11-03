@@ -1,0 +1,2 @@
+api/v1/ -->> hamma urls lar shu yerda ko'rsatilgan
+api/v1/auth -->> login va register uchun shu yerda ko'rsatilgan

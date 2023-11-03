@@ -1,0 +1,915 @@
+ERROR 2023-10-07 14:14:59,272 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+ERROR 2023-10-07 14:18:29,948 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+ERROR 2023-10-07 14:18:49,874 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+WARNING 2023-10-07 14:21:53,740 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+ERROR 2023-10-07 14:22:13,294 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+ERROR 2023-10-07 14:23:25,846 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+ERROR 2023-10-07 14:23:43,632 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+ERROR 2023-10-07 14:26:28,185 [log:241] Internal Server Error: /api/v1/comment/student/1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Teacher' object has no attribute 'is_authenticated'
+WARNING 2023-10-07 14:30:01,756 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:30:27,506 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:30:35,526 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:32:07,981 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:32:21,865 [log:241] Unauthorized: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:33:27,585 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:36:53,908 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:39:11,636 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:40:13,189 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:40:27,758 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:40:37,500 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:45:26,233 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:45:38,978 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:46:27,528 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:48:20,335 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:48:32,813 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:49:08,395 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:50:00,445 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:50:20,902 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 14:50:49,801 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+ERROR 2023-10-07 15:03:22,880 [main:574] Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/husan/Desktop/project-beta/apps/authentication/signals.py", line 85, in auto_create_attendance_and_lesson
+    students = instance.group.students.filter(group=instance.group)
+AttributeError: Mixer (<class 'apps.authentication.models.Lesson'>): 'NoneType' object has no attribute 'students'
+
+ERROR 2023-10-07 15:03:46,212 [main:574] Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/db/models/base.py", line 892, in save_base
+    post_save.send(
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 176, in send
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/dispatch/dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/home/husan/Desktop/project-beta/apps/authentication/signals.py", line 85, in auto_create_attendance_and_lesson
+    students = instance.group.students.filter(group=instance.group)
+AttributeError: Mixer (<class 'apps.authentication.models.Lesson'>): 'NoneType' object has no attribute 'students'
+
+WARNING 2023-10-07 20:48:29,755 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:49:03,805 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:49:45,305 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:50:49,358 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:51:49,818 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:52:28,128 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:53:05,771 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:53:23,758 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:53:53,570 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:54:42,179 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:55:18,202 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:55:32,036 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:55:45,178 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:58:46,853 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 20:59:39,145 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 21:00:06,656 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 21:00:41,615 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 21:01:12,408 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 21:01:22,523 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 21:06:06,978 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-07 21:06:59,642 [log:241] Bad Request: /api/v1/comment/student/1/lesson/1/
+ERROR 2023-10-07 21:51:04,580 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:51:04,853 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:52:02,240 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:52:02,505 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:52:24,340 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:52:24,614 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:54:18,615 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:54:18,905 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:57:03,765 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:57:04,032 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:58:12,711 [log:241] Internal Server Error: /api/v1/lessons/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 337, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+ERROR 2023-10-07 21:58:12,982 [log:241] Internal Server Error: /api/v1/lesson/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/apps/initialization/views.py", line 358, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/home/husan/Desktop/project-beta/apps/initialization/serializers.py", line 59, in get_group_data
+    "teacher": obj.group.teacher.full_name,
+AttributeError: 'NoneType' object has no attribute 'full_name'
+WARNING 2023-10-10 09:41:29,218 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:42:06,352 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+ERROR 2023-10-10 09:42:34,562 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 331, in check_permissions
+    for permission in self.get_permissions():
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 278, in get_permissions
+    return [permission() for permission in self.permission_classes]
+TypeError: 'BasePermissionMetaclass' object is not iterable
+WARNING 2023-10-10 09:42:57,274 [log:241] Bad Request: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:43:25,871 [log:241] Not Found: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:44:12,980 [log:241] Not Found: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:48:24,098 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:48:52,735 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:49:09,733 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:51:26,005 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:51:45,648 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:53:50,074 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:54:03,541 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:54:35,078 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:54:45,696 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:54:55,196 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:57:02,713 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:57:35,713 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:59:08,075 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 09:59:27,336 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 12:33:33,904 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 12:37:55,812 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 12:38:23,000 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 12:38:44,107 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 12:39:23,292 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 12:39:50,040 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:10:24,111 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:10:51,653 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:11:12,253 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:11:53,309 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:12:05,401 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:13:01,667 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:13:22,651 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:13:40,425 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:15:52,981 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:16:11,563 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 13:16:16,507 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:22:25,918 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:24:13,134 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:25:47,231 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:26:23,540 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:31:39,453 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:31:39,456 [log:241] Bad Request: /api/v1/auth/login/
+WARNING 2023-10-10 14:32:06,978 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:32:06,981 [log:241] Bad Request: /api/v1/auth/login/
+WARNING 2023-10-10 14:32:47,556 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:32:47,560 [log:241] Bad Request: /api/v1/auth/login/
+WARNING 2023-10-10 14:33:58,431 [log:241] Forbidden: /api/v1/comment/reply/parent/1/
+WARNING 2023-10-10 14:33:58,435 [log:241] Bad Request: /api/v1/auth/login/
+ERROR 2023-10-10 14:36:54,176 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'dict' object has no attribute 'is_authenticated'
+ERROR 2023-10-10 14:37:16,665 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'dict' object has no attribute 'is_authenticated'
+ERROR 2023-10-10 14:37:31,057 [log:241] Internal Server Error: /api/v1/comment/reply/parent/1/
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/rest_framework/permissions.py", line 140, in has_permission
+    return bool(request.user and request.user.is_authenticated)
+AttributeError: 'Parent' object has no attribute 'is_authenticated'
+WARNING 2023-10-10 14:42:37,340 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-10 21:04:54,669 [log:241] Forbidden: /api/v1/comment/1/delete/
+WARNING 2023-10-10 21:08:30,479 [log:241] Unauthorized: /api/v1/lessons/
+WARNING 2023-10-10 21:08:30,599 [log:241] Unauthorized: /api/v1/lesson/1/
+WARNING 2023-10-10 21:08:30,614 [log:241] Unauthorized: /api/v1/group/1/lesson-create/
+WARNING 2023-10-10 21:08:30,629 [log:241] Unauthorized: /api/v1/lesson/1/delete/
+WARNING 2023-10-11 10:19:05,429 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:17:52,684 [log:241] Forbidden: /api/v1/comment/student/3/lesson/1/
+WARNING 2023-10-11 11:18:37,451 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:19:50,170 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:20:23,209 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:20:23,332 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:20:23,345 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:20:23,361 [log:241] Unauthorized: /api/v1/lessons/
+WARNING 2023-10-11 11:20:23,381 [log:241] Unauthorized: /api/v1/lesson/1/
+WARNING 2023-10-11 11:20:23,400 [log:241] Unauthorized: /api/v1/group/1/lesson-create/
+WARNING 2023-10-11 11:20:23,417 [log:241] Unauthorized: /api/v1/lesson/1/delete/
+WARNING 2023-10-11 11:21:04,219 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:21:04,343 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:21:04,356 [log:241] Unauthorized: /api/v1/groups/
+WARNING 2023-10-11 11:21:04,373 [log:241] Unauthorized: /api/v1/lessons/
+WARNING 2023-10-11 11:21:04,394 [log:241] Unauthorized: /api/v1/lesson/1/
+WARNING 2023-10-11 11:21:04,412 [log:241] Unauthorized: /api/v1/group/1/lesson-create/
+WARNING 2023-10-11 11:21:04,430 [log:241] Unauthorized: /api/v1/lesson/1/delete/
+WARNING 2023-10-11 11:22:02,493 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:22:02,652 [log:241] Forbidden: /api/v1/lesson/1/
+WARNING 2023-10-11 11:22:02,669 [log:241] Forbidden: /api/v1/group/1/lesson-create/
+WARNING 2023-10-11 11:22:18,402 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:22:53,260 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:23:37,334 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:24:13,523 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:24:50,680 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:25:42,954 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:25:57,806 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:26:45,457 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:28:22,546 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:28:43,038 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:28:58,644 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:29:49,802 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:30:18,918 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:30:19,078 [log:241] Forbidden: /api/v1/lesson/1/
+WARNING 2023-10-11 11:30:19,095 [log:241] Forbidden: /api/v1/group/1/lesson-create/
+WARNING 2023-10-11 11:30:58,590 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:32:12,943 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:32:33,811 [log:241] Forbidden: /api/v1/comment/student/3/lesson/1/
+WARNING 2023-10-11 11:33:41,140 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:34:27,035 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:34:43,141 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:35:32,145 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:35:44,797 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:35:56,122 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:36:07,187 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:36:34,442 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:37:07,406 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:37:23,159 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:39:04,768 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:40:27,350 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:41:04,800 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:41:40,251 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:41:50,459 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:42:04,069 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:42:41,949 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:44:45,317 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:46:13,166 [log:241] Forbidden: /api/v1/comment/student/2/lesson/1/
+WARNING 2023-10-11 11:51:39,934 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:52:11,129 [log:241] Not Found: /api/v1/comment/2/delete/
+WARNING 2023-10-11 11:53:13,302 [log:241] Not Found: /api/v1/comment/2/delete/
+WARNING 2023-10-11 11:53:26,522 [log:241] Not Found: /api/v1/comment/2/delete/
+WARNING 2023-10-11 11:53:51,377 [log:241] Not Found: /api/v1/comment/2/delete/
+WARNING 2023-10-11 11:54:00,155 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:54:45,629 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:54:45,632 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:55:01,294 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:55:01,297 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:55:55,857 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:55:55,858 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:56:19,400 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:56:19,401 [log:241] Method Not Allowed: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:57:05,122 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:57:05,126 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:58:13,506 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:58:13,508 [log:241] Not Found: /api/v1/comment/1/delete/
+WARNING 2023-10-11 11:58:34,867 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:58:34,870 [log:241] Not Found: /api/v1/comment/2/delete/
+WARNING 2023-10-11 11:58:54,727 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:59:05,408 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 11:59:31,938 [log:241] Not Found: /api/v1/comment/student/1/lesson/1/
+WARNING 2023-10-11 12:00:17,017 [log:241] Not Found: /api/v1/comment/2/delete/

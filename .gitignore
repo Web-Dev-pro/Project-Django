@@ -1,0 +1,13 @@
+db.sqlite3
+docker-compose.yml
+Dockerfile
+__pycache__
+core/__pycache__
+apps/initialization/__pycache__
+apps/comment/__pycache__
+apps/authentication/__pycache__
+apps/permissions/__pycache__
+apps/initialization/migrations/__pycache__
+apps/authentication/migrations/__pycache__
+apps/permissions/migrations/__pycache__
+apps/comment/migrations/__pycache__

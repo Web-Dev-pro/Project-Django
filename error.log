@@ -1,0 +1,1985 @@
+Internal Server Error: /api/v1/student/student/
+[35;1mHTTP GET /api/v1/student/student/ 500 [0.13, 127.0.0.1:33598][0m
+ERROR 2023-09-27 14:27:00,940 [main:245] settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 241, in gen_value
+    value = fab()
+            ^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 72, in get_relation
+    return TypeMixer(scheme, mixer=_typemixer._TypeMixer__mixer,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2023-09-27 14:27:00,951 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.Group'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:01,392 [main:245] settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 241, in gen_value
+    value = fab()
+            ^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 72, in get_relation
+    return TypeMixer(scheme, mixer=_typemixer._TypeMixer__mixer,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2023-09-27 14:27:01,394 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.Group'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:01,719 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.User'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:02,025 [main:245] settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 241, in gen_value
+    value = fab()
+            ^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 72, in get_relation
+    return TypeMixer(scheme, mixer=_typemixer._TypeMixer__mixer,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2023-09-27 14:27:02,027 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.Group'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:02,822 [log:241] Internal Server Error: /api/v1/auth/register/teacher/
+Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/views/decorators/debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/dj_rest_auth/registration/views.py", line 42, in dispatch
+    return super().dispatch(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/generics.py", line 190, in post
+    return self.create(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/apps/authentication/views.py", line 100, in create
+    serializer.is_valid(raise_exception=True)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/serializers.py", line 426, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/rest_framework/serializers.py", line 485, in to_internal_value
+    validated_value = validate_method(validated_value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/dj_rest_auth/registration/serializers.py", line 229, in validate_username
+    username = get_adapter().clean_username(username)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/allauth/account/adapter.py", line 272, in clean_username
+    if filter_users_by_username(username).exists():
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1241, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/query.py", line 598, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1530, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 761, in as_sql
+    from_, f_params = self.get_from_clause()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1128, in get_from_clause
+    clause_sql, clause_params = self.compile(from_clause)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 546, in compile
+    sql, params = node.as_sql(self, self.connection)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/datastructures.py", line 203, in as_sql
+    base_sql = compiler.quote_name_unless_alias(self.table_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 537, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2023-09-27 14:27:03,323 [main:245] settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 241, in gen_value
+    value = fab()
+            ^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 72, in get_relation
+    return TypeMixer(scheme, mixer=_typemixer._TypeMixer__mixer,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2023-09-27 14:27:03,325 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.Group'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:03,647 [main:245] settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 241, in gen_value
+    value = fab()
+            ^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 72, in get_relation
+    return TypeMixer(scheme, mixer=_typemixer._TypeMixer__mixer,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2023-09-27 14:27:03,649 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.Group'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:03,968 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.User'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:04,296 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.User'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-27 14:27:04,623 [main:574] Traceback (most recent call last):
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 568, in blend
+    return type_mixer.blend(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/main.py", line 140, in blend
+    target = self.postprocess(target, postprocess_values)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 179, in postprocess
+    target = self.__mixer.postprocess(target)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/mixer/backend/django.py", line 429, in postprocess
+    target.save()
+  File "/home/jam/.var/project-crm-beta/apps/authentication/models.py", line 92, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1820, in execute_sql
+    with self.connection.cursor() as cursor:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/utils/asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/base/base.py", line 330, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "/home/jam/.var/project-crm-beta/.environment/lib/python3.11/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Mixer (<class 'apps.authentication.models.User'>): settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+ERROR 2023-09-29 14:29:16,478 [log:241] Internal Server Error: /api/v1/auth/register/student/
+ERROR 2023-09-30 19:10:59,130 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:10:59,383 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:11:00,666 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:11:00,885 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+CRITICAL 2023-09-30 19:12:45,099 [server:166] Listen failure: [Errno 1] Operation not permitted
+ERROR 2023-09-30 19:13:25,942 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:26,150 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:27,198 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:27,403 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:27,898 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:28,097 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:28,368 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:28,570 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:28,634 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:28,837 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:28,877 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:29,073 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:29,073 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:29,268 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:29,388 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:29,577 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:13:29,778 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:14:00,811 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:14:01,079 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+CRITICAL 2023-09-30 19:16:18,232 [server:166] Listen failure: [Errno 1] Operation not permitted
+CRITICAL 2023-09-30 19:16:22,311 [server:166] Listen failure: [Errno 1] Operation not permitted
+ERROR 2023-09-30 19:16:24,741 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+CRITICAL 2023-09-30 19:16:24,941 [server:166] Listen failure: [Errno 1] Operation not permitted
+ERROR 2023-09-30 19:16:24,963 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:16:25,573 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:16:25,773 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:16:25,883 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:16:26,081 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:16:26,274 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+CRITICAL 2023-09-30 19:16:57,685 [server:166] Listen failure: [Errno 1] Operation not permitted
+CRITICAL 2023-09-30 19:17:00,510 [server:166] Listen failure: [Errno 1] Operation not permitted
+ERROR 2023-09-30 19:17:01,250 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:01,452 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:02,227 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:02,428 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:02,799 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:02,992 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:03,267 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:03,465 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:03,548 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:03,751 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:04,427 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:04,622 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:04,766 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:04,958 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:20,268 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:20,471 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:22,726 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:22,869 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:55,732 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:55,948 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:56,660 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:56,861 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:57,240 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:57,437 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:57,618 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:17:57,819 [exception:124] Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'api.ontahsil.uz'. You may need to add 'api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:02,827 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:04,602 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:04,854 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:05,106 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:05,349 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:05,579 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:05,810 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:06,054 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:06,299 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:06,549 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:06,779 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:07,025 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:07,254 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:07,488 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:07,736 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:07,967 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:08,201 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:32:43,718 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:33:59,061 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:48:06,104 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 19:48:06,511 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 20:41:13,198 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 20:41:13,392 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 22:31:52,742 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-09-30 22:31:52,850 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 00:09:37,497 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 00:09:41,208 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 00:09:41,752 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 00:09:41,938 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 00:09:42,092 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 01:45:23,181 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 01:45:26,721 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 01:45:27,259 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 01:45:31,299 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 07:45:56,781 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 07:45:58,798 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 07:46:00,419 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 18:40:05,162 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-01 22:00:03,831 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 00:33:08,129 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 00:33:11,041 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 00:33:13,869 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 00:33:14,034 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 00:33:14,212 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 12:02:36,008 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 16:21:40,355 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-02 21:09:18,157 [exception:124] Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/ubuntu/project-beta/.environment/lib/python3.9/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'www.api.ontahsil.uz'. You may need to add 'www.api.ontahsil.uz' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:10:15,757 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:10:16,279 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:10:16,640 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:10:43,799 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:10:44,459 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:10:45,111 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:11:04,204 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:11:04,887 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:11:08,337 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:11:12,846 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+ERROR 2023-10-05 10:11:28,469 [exception:124] Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+  File "/home/husan/Desktop/project-beta/.environment/lib/python3.10/site-packages/django/http/request.py", line 150, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
